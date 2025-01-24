@@ -3,7 +3,7 @@ import React from "react";
 function About() {
   return (
     <section className="relative min-h-auto overflow-hidden mb-12">
-      {/* Background Image with Overlay */}
+     
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
         style={{
@@ -11,16 +11,16 @@ function About() {
         }}
       />
 
-      {/* Top Vectors */}
+     
       <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
-        {/* Vector 1 */}
+    
         <div
           className="absolute top-6 left-8 w-48 h-12 bg-[#FFEBBE] rounded-sm rotate-6"
           style={{
             clipPath: "polygon(0 0, 100% 0, 80% 100%, 0% 100%)",
           }}
         ></div>
-        {/* Vector 2 */}
+        
         <div
           className="absolute top-2 left-6 w-48 h-12 bg-[#06169F] rounded-sm rotate-6"
           style={{
@@ -29,15 +29,15 @@ function About() {
         ></div>
       </div>
 
-      {/* Content */}
+     
       <div className="relative container mx-auto px-6 py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          {/* Left Column */}
+          
           <div className="space-y-8">
             <h2 className="text-3xl font-semibold text-[#06169F]">
               Who are DIAPORA IWACU?
             </h2>
-            <div className="space-y-4 text-gray-700">
+            <div className="space-y-4 text-[#2E2E2E]">
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -52,9 +52,9 @@ function About() {
               </p>
             </div>
 
-            {/* Mission and Vision */}
+          
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {/* Mission */}
+          
               <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0">
                   <div className="w-12 h-12  rounded-full flex items-center justify-center">
@@ -77,13 +77,13 @@ function About() {
                   <h3 className="text-lg font-semibold text-[#6699FF]">
                     Our Mission
                   </h3>
-                  <p className="text-gray-600">
+                  <p className="text-[#000000]">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </p>
                 </div>
               </div>
 
-              {/* Vision */}
+           
               <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0">
                   <div className="w-12 h-12  rounded-full flex items-center justify-center">
@@ -112,7 +112,7 @@ function About() {
                   <h3 className="text-lg font-semibold text-[#6699FF]">
                     Our Vision
                   </h3>
-                  <p className="text-gray-600">
+                  <p className="text-[#000000]">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                   </p>
                 </div>
@@ -120,7 +120,7 @@ function About() {
             </div>
           </div>
 
-          {/* Right Column - Image */}
+         
           <div className="relative">
             <img
               src="/src/img/aboutimg.png"
