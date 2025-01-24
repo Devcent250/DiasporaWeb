@@ -2,14 +2,18 @@ import React from "react";
 
 function About() {
   return (
-    <section className="relative min-h-auto overflow-hidden mt-80">
+    <section className="relative min-h-auto overflow-hidden mt-[-224px] ">
      
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
-        style={{
-          backgroundImage: `url('/src/img/heroimg.jpg')`,
-        }}
-      />
+     <div
+     className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
+     style={{
+       backgroundImage: `url('src/img/heroimg.jpg')`,
+       transform: "rotate(-5deg) scale(1.2)",
+       transformOrigin: "center center",
+       clipPath: "polygon(80 50, 100% 0, 60% 100%, 0% 80%)",
+     }}
+   ></div>
+
 
      
       <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
@@ -125,7 +129,7 @@ function About() {
             <img
               src="/src/img/aboutimg.png"
               alt="About Us"
-              className="absolute right-0 top-12 transform -translate-y-1/2 w-1/2 h-auto rounded-lg object-cover z-10"
+              className="absolute right-0 top-28 transform -translate-y-1/2 w-1/2 h-auto rounded-lg object-cover z-10"
             />
           </div>
         </div>
