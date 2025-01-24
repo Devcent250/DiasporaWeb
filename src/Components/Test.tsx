@@ -48,6 +48,31 @@ const Test = () => {
                     </div>
                 </div>
 
+</div>
+            <div className='flex justify-center items-center space-x-6 pb-10'>
+                <div className='bg-[#ffebbe] flex flex-col justify-center items-center space-y-1 px-16 py-4 rounded-2xl'>
+                    <span className="text-[30px] [font-family:'Montserrat-SemiBold',Helvetica] font-semibold text-[#06159e]">100+</span>
+                    <span className="[font-family:'Montserrat-SemiBold',Helvetica] font-semibold text-[#2d2d2d] tracking-[0] leading-[normal]">Members</span>
+                </div>
+                <div className='bg-[#ffebbe] flex flex-col justify-center items-center space-y-1 px-16 py-4 rounded-2xl'>
+                    <span className="text-[30px] [font-family:'Montserrat-SemiBold',Helvetica] font-semibold text-[#06159e]">73</span>
+                    <span className="[font-family:'Montserrat-SemiBold',Helvetica] font-semibold text-[#2d2d2d] tracking-[0] leading-[normal]">HOUSES BUILT</span>
+                </div>
+                <div className='bg-[#ffebbe] flex flex-col justify-center items-center space-y-1 px-16 py-4 rounded-2xl'>
+                    <span className="text-[30px] [font-family:'Montserrat-SemiBold',Helvetica] font-semibold text-[#06159e]">5</span>
+                    <span className="[font-family:'Montserrat-SemiBold',Helvetica] font-semibold text-[#2d2d2d] tracking-[0] leading-[normal]">BUSINESSES</span>
+                </div>
+                <div className='bg-[#ffebbe] flex flex-col justify-center items-center space-y-1 px-16 py-4 rounded-2xl'>
+                    <span className="text-[30px] [font-family:'Montserrat-SemiBold',Helvetica] font-semibold text-[#06159e]">13</span>
+                    <span className="[font-family:'Montserrat-SemiBold',Helvetica] font-semibold text-[#2d2d2d] tracking-[0] leading-[normal]">PLOTS TO SELL</span>
+                </div>
+
+            </div>
+            <div className='w-full flex justify-center items-center py-4'>
+                <span className="[font-family:'Moon Dance']">Moon Dance</span>
+                <span className="relative inline-block px-8 before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-[#ffebbe]">
+                    <span className="relative text-[#2d2d2d] text-[32px] font-semibold">SERVICES</span>
+                </span>
             </div>
         </>
     );
