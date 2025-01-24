@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <section className="relative min-h-auto overflow-hidden mb-12">
+    <section className="relative min-h-auto overflow-hidden mt-80">
      
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
