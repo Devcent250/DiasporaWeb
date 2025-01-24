@@ -1,11 +1,12 @@
 import "./Components/Hero"
 import { HeroSection } from "./Components/Hero"
+import Test from "./Components/Test"
 
 function App() {
 
 
   return (
-    <h1 className="text-green-400">Diaspora Iwacu</h1>
+    <Test/>
   )
 }
 
