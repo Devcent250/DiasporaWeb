@@ -28,8 +28,8 @@ const Test = () => {
                         <h1 className='text-4xl'>HELPING YOU OWN
                             A HOUSE AT HOME</h1>
                         <p className='text-center'>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna turpis,<br/>
-                            posuere quis enim quis, porttitor feugiat diam.<br/>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam urna turpis,<br />
+                            posuere quis enim quis, porttitor feugiat diam.<br />
                             Mauris facilisis dolor elit, eget imperdiet diam dapibus egestas.
                         </p>
                     </div>
@@ -38,7 +38,16 @@ const Test = () => {
                         <FacebookRoundedIcon className='text-white' />
                         <FacebookRoundedIcon className='text-white' />
                     </div>
+                    <div className='absolute bottom-40 right-0 flex flex-col gap-2'>
+                        <div className='relative'>
+                            <h1 className='absolute top-1/3 left-1/4 text-white text-4xl font-semibold'>Investing Home</h1>
+                            <svg width="396" height="421" viewBox="0 0 496 521" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M329.158 520.181C249.791 521.307 145.925 432.279 103.787 387.473C57.5882 334.825 27.4432 289.889 18.1456 274.002C-25.3186 201.384 23.7925 147.792 54.4259 129.602C54.9018 129.319 55.343 129.003 55.7629 128.643C159.751 39.3241 269.167 9.4432 310.949 5.67126C409.788 -14.5109 459.158 33.7947 472.09 61.434C472.416 62.1305 472.793 62.748 473.254 63.363C490.751 86.6744 502.901 155.342 501.81 220.844C500.3 311.559 476.557 359.912 457.557 411.397C422.137 508.118 358.8 524.293 330.753 520.286C330.216 520.209 329.7 520.174 329.158 520.181Z" fill="#06169F" />
+                            </svg>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </>
     );
