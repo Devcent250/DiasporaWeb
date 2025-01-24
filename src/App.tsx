@@ -7,6 +7,7 @@ import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 
 function App() {
+
   return (
     <Router>
       <div>
@@ -20,6 +21,11 @@ function App() {
       </div>
     </Router>
   );
+
+
+
+  
+
 }
 
 export default App;
