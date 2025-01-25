@@ -74,6 +74,38 @@ const Test = () => {
                     <span className="relative text-[#2d2d2d] text-[32px] font-semibold">SERVICES</span>
                 </span>
             </div>
+            <div className='flex gap-4 px-10'>
+                <div className='border-2 flex flex-col justify-center items-center p-4'>
+                    <div>
+
+                    </div>
+                    <p>
+                        and typesetting industry. Lorem
+                        industry's standard dummy text
+                        when an unknown printer took
+                        scrambled it to make a type specimen
+                    </p>
+                    <button className='bg-[#DA7110] px-6 py-1 text-sm text-white font-semibold rounded-full'>Explore</button>
+                </div>
+                <div className='border-2 border-[#DA7110]'>
+                    <p>
+                        and typesetting industry. Lorem
+                        industry's standard dummy text
+                        when an unknown printer took
+                        scrambled it to make a type specimen
+                    </p>
+                    <button className='bg-[#DA7110] px-6 py-1 text-sm text-white font-semibold rounded-full'>Explore</button>
+                </div>
+                <div className='border-2 border-[#DA7110]'>
+                    <p>
+                        and typesetting industry. Lorem
+                        industry's standard dummy text
+                        when an unknown printer took
+                        scrambled it to make a type specimen
+                    </p>
+                    <button className='bg-[#DA7110] px-6 py-1 text-sm text-white font-semibold rounded-full'>Explore</button>
+                </div>
+            </div>
         </>
     );
 };
