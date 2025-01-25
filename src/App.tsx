@@ -11,6 +11,7 @@ import Testimonial from "./Components/Testimonial";
 function App() {
 
   return (
+<<<<<<< HEAD
     <Router>
       <div>
        
@@ -23,6 +24,20 @@ function App() {
         <Footer />
       </div>
     </Router>
+=======
+    <Test/>
+    // <Router>
+    //   <div>
+    //     <NavBar />
+    //     {/* Landing Page */}
+    //     <HeroSection />
+    //     <About />
+    //     <Features />
+    //     <Contact />
+    //     <Footer />
+    //   </div>
+    // </Router>
+>>>>>>> a5c39c7e33b48031f2d98da8e11356a2ad3f1e97
   );
 
 
