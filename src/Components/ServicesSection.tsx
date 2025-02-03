@@ -1,41 +1,50 @@
-export function ServicesSection() {
-    const services = [
-      {
-        icon: <Building2 className="w-12 h-12" />,
-        title: "Real Estate",
-        description: "Find your perfect property with our comprehensive real estate services.",
-      },
-      {
-        icon: <ShoppingCart className="w-12 h-12" />,
-        title: "Commerce",
-        description: "Explore business opportunities and commercial properties.",
-      },
-      {
-        icon: <Truck className="w-12 h-12" />,
-        title: "Another service",
-        description: "Additional services to meet your needs.",
-      },
-    ]
-  
-    return (
-      <section className="py-16">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-12">Our Services</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            {services.map((service, index) => (
-              <div key={index} className="text-center p-6 rounded-lg border hover:shadow-lg transition-shadow">
-                <div className="text-[#00008B] mb-4 flex justify-center">{service.icon}</div>
-                <h3 className="text-xl font-bold mb-4">{service.title}</h3>
-                <p className="text-gray-600 mb-6">{service.description}</p>
-                <Button variant="outline" className="text-[#00008B] border-[#00008B] hover:bg-[#00008B] hover:text-white">
-                  Explore
-                </Button>
-              </div>
-            ))}
+const ServicesSection = () => {
+  const services = [
+    {
+      img: "/eco.png",
+      alt: "Eco-friendly Service",
+      text: "We provide sustainable and eco-friendly solutions that ensure a greener environment for future generations.",
+    },
+    {
+      img: "/image2.png",
+      alt: "Technology Innovation",
+      text: "Our cutting-edge technological solutions help businesses optimize their processes and stay ahead in the digital age.",
+    },
+    {
+      img: "/eco.png",
+      alt: "Reliable Logistics",
+      text: "We offer efficient and reliable logistics services, ensuring timely deliveries and smooth operations.",
+    },
+  ];
+
+  return (
+    <div className="w-full flex flex-col justify-center items-center mt-20 py-8">
+      <span className="font-moonDance text-4xl">Our</span>
+      <span className="relative inline-block px-8 before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-[#ffebbe]">
+        <span className="relative text-[#2d2d2d] text-[32px] font-semibold">
+          SERVICES
+        </span>
+      </span>
+
+   
+      <div className="flex flex-wrap justify-center gap-6 px-6 max-w-6xl mx-auto mt-10">
+        {services.map((service, index) => (
+          <div
+            key={index}
+            className="flex flex-col gap-6 justify-center items-center p-4 bg-white rounded-lg shadow w-full sm:w-[45%] lg:w-[30%]"
+          >
+            <div>
+              <img src={service.img} alt={service.alt} className="w-20" />
+            </div>
+            <p className="text-center">{service.text}</p>
+            <button className="bg-[#DA7110] px-6 py-1 text-sm text-white font-semibold rounded-full">
+              Explore
+            </button>
           </div>
-        </div>
-      </section>
-    )
-  }
-  
-export default ServicesSection  
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default ServicesSection;
