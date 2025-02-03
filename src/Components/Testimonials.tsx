@@ -3,7 +3,7 @@ import { useRef } from "react";
 
 const Testimonial = () => {
   const containerRef = useRef(null);
-  const right = "/rightshapes.svg";
+ 
 
   const testimonials = [
     {
@@ -35,13 +35,6 @@ const Testimonial = () => {
           Testimonial
         </span>
       </span>
-
-   
-      <img
-        src={right}
-        alt="background"
-        className="absolute w-30 sm:w-50 h-60 -bottom-450  -right-0"
-      />
 
     
       <div className="flex flex-wrap justify-center gap-6 px-6 max-w-6xl mx-auto mt-10">
