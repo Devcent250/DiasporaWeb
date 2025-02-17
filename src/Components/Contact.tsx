@@ -5,14 +5,14 @@ import PhoneIcon from '@mui/icons-material/Phone';
 
 const ContactUs = () => {
   return (
-    <div className="container mx-auto px-4 sm:px-8 py-16 h-screen">
+    <div id='contacts' className="container mx-auto px-4 sm:px-8 py-16 h-screen">
       <h1 className="text-center text-4xl font-bold mb-8">Contact Us</h1>
       <div className="flex flex-col sm:flex-row justify-between items-center gap-16 bg-[#FEFAF2] rounded-lg">
         <div className="w-full sm:w-1/2 p-8 rounded-lg">
-          <h2 className="text-[#06169F] text-3xl font-semibold mb-4">Get In Touch With Us</h2>
+          <h2 className="text-[#1F365B] text-3xl font-semibold mb-4">Get In Touch With Us</h2>
           <p className="text-gray-700 mb-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has industry's standard dummy text</p>
           <div className="flex items-center gap-4 mb-4">
-            <div className="bg-[#06169F] text-white p-1 rounded-lg">
+            <div className="bg-[#1F365B] text-white p-1 rounded-lg">
               <LocationOnIcon />
             </div>
             <div>
@@ -21,7 +21,7 @@ const ContactUs = () => {
             </div>
           </div>
           <div className="flex items-center gap-4 mb-4">
-            <div className="bg-[#06169F] text-white p-1 rounded-lg">
+            <div className="bg-[#1F365B] text-white p-1 rounded-lg">
               <EmailIcon />
             </div>
             <div>
@@ -30,7 +30,7 @@ const ContactUs = () => {
             </div>
           </div>
           <div className="flex items-center gap-4 mb-4">
-            <div className="bg-[#06169F] text-white p-1 rounded-lg">
+            <div className="bg-[#1F365B] text-white p-1 rounded-lg">
               <PhoneIcon />
             </div>
             <div>
@@ -41,10 +41,10 @@ const ContactUs = () => {
 
           
           <div className="flex gap-6 mt-4">
-            <Facebook className="text-[#06169F]" />
-            <Instagram className="text-[#06169F]" />
-            <LinkedIn className="text-[#06169F]" />
-            <YouTube className="text-[#06169F]" />
+            <Facebook className="text-[#1F365B]" />
+            <Instagram className="text-[#1F365B]" />
+            <LinkedIn className="text-[#1F365B]" />
+            <YouTube className="text-[#1F365B]" />
           </div>
         </div>
 

@@ -28,7 +28,7 @@ const ServicesSection = () => {
       <p className="text-sm text-center my-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 
    
-      <div className="flex flex-wrap justify-center gap-6 px-6 max-w-6xl mx-auto mt-10">
+      <div className="flex flex-wrap justify-between gap-6 max-w-6xl mx-auto mt-10">
         {services.map((service, index) => (
           <div
             key={index}

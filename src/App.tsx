@@ -15,7 +15,7 @@ function App() {
   return (
 
     <Router>
-      <div className="bg-slate-100">
+      <div className="bg-slate-200">
 
 
         <Test />

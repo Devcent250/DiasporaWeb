@@ -47,7 +47,7 @@ export function Footer() {
                 placeholder="Email"
                 className="bg-white border border-gray-300 rounded px-2 py-1 w-full"
               />
-              <button className="bg-[#06169F] text-white px-4 py-1 rounded hover:bg-blue-700">
+              <button className="bg-[#1F365B] text-white px-4 py-1 rounded hover:bg-blue-700">
                 Subscribe
               </button>
             </div>
@@ -56,7 +56,7 @@ export function Footer() {
       </div>
 
       
-      <div className="bg-[#06169F] w-full py-6 text-white text-center mt-12">
+      <div className="bg-[#1F365B] w-full py-6 text-white text-center mt-12">
         <p>
           Copyright © 2025 -{' '}
           <span className="text-[#DA7110]">Diaspora IWACU</span>. All Rights Reserved.

@@ -6,22 +6,22 @@ import TipsAndUpdatesIcon from '@mui/icons-material/TipsAndUpdates';
 
 function About() {
   return (
-    <section className="relative min-h-auto overflow-hidden py-10 lg:mt-[-250px] mt-[-235px]   ">
-    
+    <section id="about" className="relative min-h-screen overflow-hidden py-10 lg:mt-[-250px] mt-[-235px]   ">
+
       <img
         src={image_url}
         alt="background"
         className="absolute top-0 left-0 w-full h-auto opacity-60"
       />
-     <div className="absolute left-[-70px] top-50 md:left-0 md:w-80 md:h-80">
-  <img src={left} alt="shapes" className="w-full h-full object-contain" />
-</div>
+      <div className="absolute left-[-70px] top-50 md:left-0 md:w-80 md:h-80">
+        <img src={left} alt="shapes" className="w-full h-full object-contain" />
+      </div>
 
 
-      
+
       <div className="relative container mx-auto px-6 sm:px-8 md:px-16 lg:px-24 z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-      
+
           <div className="space-y-6">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#06169F] mt-28">
               Who are DIASPORA IWACU?
@@ -39,7 +39,7 @@ function About() {
               anim id est laborum.
             </p>
 
-       
+
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 flex items-center justify-center ">
