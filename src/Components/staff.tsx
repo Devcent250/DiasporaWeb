@@ -4,7 +4,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 
 const Staff = () => {
   return (
-    <div className="w-full flex flex-col justify-center items-center mt-20 py-8 px-4">
+    <div className="w-full min-h-screen flex flex-col justify-center items-center mt-20 py-8 px-4">
       <span className="font-moonDance text-4xl">Staff</span>
       <span className="relative inline-block px-8 before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-[#ffebbe]">
         <span className="relative text-[#2d2d2d] text-[32px] font-semibold">

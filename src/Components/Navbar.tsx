@@ -16,7 +16,8 @@ const NavBar = () => {
         <img src="/logo.png" alt="Logo" className="w-18  " />
         <div className="hidden items-center space-x-8 md:mr-24 text-lg cursor-pointer md:flex md:flex-1">
           <a href="#" className="text-white hover:text-gray-300">Home</a>
-          <a href="#" className="text-white hover:text-gray-300">About</a>
+          <a href="#about" className="text-white hover:text-gray-300">About</a>
+          <a href="#services" className="text-white hover:text-gray-300">Services</a>
           <a href="#" className="text-white hover:text-gray-300">Activities</a>
           <a href="#" className="text-white hover:text-gray-300">Contact</a>
         </div>

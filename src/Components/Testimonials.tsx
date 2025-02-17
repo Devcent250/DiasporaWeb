@@ -27,7 +27,7 @@ const Testimonial = () => {
   ];
 
   return (
-    <div className="w-full flex flex-col justify-center items-center mt-20 py-8 px-4">
+    <div id="testimonials" className="w-full flex flex-col justify-center mx-auto max-w-6xl items-center mt-20 py-8 px-4 min-h-screen">
      
       <span className="font-moonDance text-4xl">Members</span>
       <span className="relative inline-block px-8 before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-[#ffebbe]">
@@ -35,9 +35,10 @@ const Testimonial = () => {
           Testimonial
         </span>
       </span>
+      <p className="text-sm text-center my-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 
     
-      <div className="flex flex-wrap justify-center gap-6 px-6 max-w-6xl mx-auto mt-10">
+      <div className="flex flex-wrap justify-between gap-8 max-w-6xl mx-auto mt-6">
         {testimonials.map((testimonial, index) => (
           <div
             key={index}

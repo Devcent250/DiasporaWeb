@@ -18,13 +18,14 @@ const ServicesSection = () => {
   ];
 
   return (
-    <div className="w-full flex flex-col justify-center items-center mt-20 py-8">
+    <div id="services" className="w-full min-h-screen flex flex-col justify-center items-center mt-20 py-8 mx-auto max-w-6xl">
       <span className="font-moonDance text-4xl">Our</span>
-      <span className="relative inline-block px-8 before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-[#ffebbe]">
+      <span className="relative inline-block px-8 before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-[#ffebbe] ">
         <span className="relative text-[#2d2d2d] text-[32px] font-semibold">
           SERVICES
         </span>
       </span>
+      <p className="text-sm text-center my-8">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 
    
       <div className="flex flex-wrap justify-center gap-6 px-6 max-w-6xl mx-auto mt-10">

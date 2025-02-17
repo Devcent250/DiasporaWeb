@@ -15,27 +15,27 @@ function App() {
   return (
 
     <Router>
-      <div>
-       
-      
-        <Test /> 
+      <div className="bg-slate-100">
+
+
+        <Test />
         <About />
-         <Activities />
-        <ServicesSection /> 
-         <Testimonial /> 
+        <Activities />
+        <ServicesSection />
+        <Testimonial />
         <Staff />
         <Contact />
         <Footer />
       </div>
     </Router>
 
-    
+
 
   );
 
 
 
-  
+
 
 }
 

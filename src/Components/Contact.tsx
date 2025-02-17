@@ -5,7 +5,7 @@ import PhoneIcon from '@mui/icons-material/Phone';
 
 const ContactUs = () => {
   return (
-    <div className="container mx-auto px-4 sm:px-8 py-16">
+    <div className="container mx-auto px-4 sm:px-8 py-16 h-screen">
       <h1 className="text-center text-4xl font-bold mb-8">Contact Us</h1>
       <div className="flex flex-col sm:flex-row justify-between items-center gap-16 bg-[#FEFAF2] rounded-lg">
         <div className="w-full sm:w-1/2 p-8 rounded-lg">
